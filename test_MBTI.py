@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import createDB
 
 
-# Создание подключения к БД и создание БД
+# Создание подключения к БД и создание самой БД
 db = createDB.Database()
 db.create_table_user_and_results()
 
